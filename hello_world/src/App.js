@@ -4,6 +4,13 @@ import Greet from './components/Greet.js';
 import Welcome from './components/Welcome';
 import Hello from './components/hello';
 import Message from './components/message.js'
+import Counter from './components/counter.js';
+import Funtionclick from './components/function_click.js';
+import Classclick from './components/class_click';
+import EventBind from './components/eventbind.js';
+import ParentComp from './components/parentcomp.js';
+import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
 
 function App() {
   return (
@@ -17,6 +24,13 @@ function App() {
       <Welcome name="clark" hero="superman"></Welcome>
       <Hello></Hello>
       <Message></Message>
+      <Counter></Counter>
+      <Funtionclick></Funtionclick>
+      <Classclick></Classclick>
+      <EventBind></EventBind>
+      <ParentComp></ParentComp>
+      <UserGreeting name='shivsoni'></UserGreeting>
+      <NameList></NameList>
     </div>
   );
 }

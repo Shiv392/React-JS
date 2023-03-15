@@ -11,6 +11,10 @@ import EventBind from './components/eventbind.js';
 import ParentComp from './components/parentcomp.js';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
+import StyleSheet from './components/StyleSheet';
+import InlineStyle from './components/InlineStyle';
+import AppStyle from './appStyle.css';
+import styles from './appStyle.module.css';
 
 function App() {
   return (
@@ -31,6 +35,10 @@ function App() {
       <ParentComp></ParentComp>
       <UserGreeting name='shivsoni'></UserGreeting>
       <NameList></NameList>
+      <StyleSheet  primary={true}></StyleSheet>
+      <InlineStyle></InlineStyle>
+      <h1 className='error'> this is error</h1>
+      <h1 className={styles.success}>this is success</h1>
     </div>
   );
 }

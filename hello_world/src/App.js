@@ -16,6 +16,11 @@ import InlineStyle from './components/InlineStyle';
 import AppStyle from './appStyle.css';
 import styles from './appStyle.module.css';
 import Form from './components/Form';
+import MultipleInput from './components/multiple_INput.js';
+import LifeCycleA from './components/LifeCycleA.js';
+import FregmentDemo from './components/FregmentDemo.js';
+import Table from './components/Table.js';
+import ParentComponent from './components/ParentComponent.js';
 
 function App() {
   return (
@@ -41,6 +46,12 @@ function App() {
       <h1 className='error'> this is error</h1>
       <h1 className={styles.success}>this is success</h1>
       <Form></Form>
+      <MultipleInput></MultipleInput>
+      <LifeCycleA></LifeCycleA>
+      <FregmentDemo />
+      <Table></Table>
+      <ParentComponent></ParentComponent>
+     
     </div>
   );
 }

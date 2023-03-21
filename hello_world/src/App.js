@@ -21,6 +21,9 @@ import LifeCycleA from './components/LifeCycleA.js';
 import FregmentDemo from './components/FregmentDemo.js';
 import Table from './components/Table.js';
 import ParentComponent from './components/ParentComponent.js';
+import RefsDemo from './components/RefsDemo';
+import FocusInput from './components/FocusInput';
+import FRInputParent from './components/FRInputParent';
 
 function App() {
   return (
@@ -51,7 +54,10 @@ function App() {
       <FregmentDemo />
       <Table></Table>
       <ParentComponent></ParentComponent>
+      <RefsDemo></RefsDemo>
      
+      <FocusInput></FocusInput>
+      <FRInputParent></FRInputParent>
     </div>
   );
 }

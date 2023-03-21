@@ -9,13 +9,13 @@ import PureComp from './PureComponent';
             name:'shivsoni'
         }
     }
-    componentDidMount(){
-        setInterval(()=>{
-            this.setState({
-                name:'shivsoni 2'
-            })
-        },2000)
-    }
+    // componentDidMount(){
+    //     setInterval(()=>{
+    //         this.setState({
+    //             name:'shivsoni 2'
+    //         })
+    //     },2000)
+    // }
   render() {
     console.log(`parent component render ****`);
     return (

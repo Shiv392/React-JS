@@ -24,6 +24,10 @@ import ParentComponent from './components/ParentComponent.js';
 import RefsDemo from './components/RefsDemo';
 import FocusInput from './components/FocusInput';
 import FRInputParent from './components/FRInputParent';
+import PortalDemo from './components/PortalDemo';
+// import Hero from './components/Hero.js';
+import ClickCounter from './components/ClickCounter';
+import HoverCount from './components/HoverCount';
 
 function App() {
   return (
@@ -55,10 +59,17 @@ function App() {
       <Table></Table>
       <ParentComponent></ParentComponent>
       <RefsDemo></RefsDemo>
-     
-      <FocusInput></FocusInput>
+     <FocusInput></FocusInput>
       <FRInputParent></FRInputParent>
+        <PortalDemo></PortalDemo>
+        {/* <Hero heroname="batman"/>
+        <Hero heroname="superman"/> */}
+        {/* <Hero heroname="joker"/> */}
+        <ClickCounter></ClickCounter>
+        <HoverCount></HoverCount>
     </div>
+
+    
   );
 }
 

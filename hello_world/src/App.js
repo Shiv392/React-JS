@@ -28,6 +28,10 @@ import PortalDemo from './components/PortalDemo';
 // import Hero from './components/Hero.js';
 import ClickCounter from './components/ClickCounter';
 import HoverCount from './components/HoverCount';
+import ClickCounterTwo from './components/ClickCounterTwo';
+import HoverCounterTwo from './components/HoverCounterTwo';
+import ComponentC from './components/ComponentC';
+import  {UserProvider}  from './components/userContext';
 
 function App() {
   return (
@@ -67,6 +71,11 @@ function App() {
         {/* <Hero heroname="joker"/> */}
         <ClickCounter></ClickCounter>
         <HoverCount></HoverCount>
+        <ClickCounterTwo></ClickCounterTwo>
+        <HoverCounterTwo></HoverCounterTwo>
+        <UserProvider value="shiv soni">
+        <ComponentC />
+        </UserProvider>
     </div>
 
     

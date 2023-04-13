@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import Greet from './components/Greet.js';
 import Welcome from './components/Welcome';
 import Hello from './components/hello';
@@ -32,6 +33,8 @@ import ClickCounterTwo from './components/ClickCounterTwo';
 import HoverCounterTwo from './components/HoverCounterTwo';
 import ComponentC from './components/ComponentC';
 import  {UserProvider}  from './components/userContext';
+import HttpGet from './components/HttpGet';
+import HttpPost from './components/HttpPost';
 
 function App() {
   return (
@@ -76,6 +79,8 @@ function App() {
         <UserProvider value="shiv soni">
         <ComponentC />
         </UserProvider>
+        <HttpGet />
+        <HttpPost />
     </div>
 
     
